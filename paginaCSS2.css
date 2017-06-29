@@ -1,0 +1,261 @@
+/* CSS para pagina.html */
+
+#wrapper {
+    background-image: url(Imagenes/texturas-metal-18.jpg);
+    background-repeat: repeat;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header {
+    height: 300px;
+    background-image: url(Imagenes/portada.png);
+    background-size: cover;
+}
+
+#titulo {
+    color: deepskyblue;
+    font-size: 40px;
+    font-family: fantasy;
+    padding-top: 190px;
+    padding-left: 20px;
+}
+
+#titulo a:link {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+#titulo a:visited {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+#subtitulo {
+    color:white;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited{
+      text-decoration: none;
+    color: white;
+}
+
+nav {
+    color: white;
+    background-color: rgba(0,0,0,.7);
+    height: 30px;
+    line-height: 30px;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    color: white;
+    background-color: rgba(255,255,255,.7);
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#artDetalle {
+    background-color: rgba(255,255,255,.7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#artDetalle h3 {
+    color: dodgerblue;
+    font-size: 40px;
+	text-align: center;
+    font-family: sans-serif;
+}
+
+.descripcionDerecha {
+    margin-right: 10px;
+    margin-left: 190px;
+    margin-bottom: 10px;
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    height: 200px;
+    overflow-y: hidden;
+}
+    
+.descripcionIzquierda {
+    margin-right: 200px;
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    overflow-y: hidden;
+    height: 200px;
+}
+
+#descripcion input[type='submit'] {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+footer {
+    height: 120px;
+    background-color: black;
+    position: relative;
+}
+
+#textoFooter {
+    color: white;
+    line-height: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    width: 60%;
+    min-width: 220px;
+    float: left;
+    font-family: sans-serif;
+}
+
+#redesFooter {
+    height: 120px;
+    width: calc(40% - 40px);
+    padding-right: 20px;
+    padding-top: 10px;
+    float: right;
+}
+
+#redesFooter img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+/*CSS para contacto.html*/
+.content{
+    height: 540px;
+    color: black;
+    background: rgba(255,255,255;.4);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+aside{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 525px;
+    width: 38%;
+    display: inline-block;
+    background-color: rgba(255,255,255,.8);
+    float: left; 
+    border-radius: 20px;
+    } 
+
+.seccion{
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-left: 10px;    
+}
+
+.parrafo{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 18px;
+ 
+    width: 80%;   
+    overflow: hidden;
+}
+
+.frm{
+    width: 58%;
+    height: 525px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgba(255,255,255,.8);
+    position: relative;
+    float: right;
+    border-radius: 20px;
+}
+
+.frm a {
+    color: blue;
+    text-decoration: underline;
+}
+
+fieldset{
+    border-radius: 20px;
+}
+
+legend{
+    color:black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 20px;
+    box-shadow: 70px;
+}
+.dato{
+    height: 26px;
+    width: 75%;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.mensaje{
+    height: 100px;
+    width: 90%;
+    background-color: transparent;
+    overflow-y: hidden;
+    max-height: 100px;
+    min-height:100px;
+    overflow:auto;    
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    height: 36px;
+    width: 130px;
+    border-radius: 20px;
+}
